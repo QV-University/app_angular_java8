@@ -1,0 +1,12 @@
+<h1>Empleados</h1>
+<br>
+<div class="card" *ngFor="let empleado of empleados" style="width: 70rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{ empleado.nombres }} - {{ empleado.apellidos}}</h5>
+      <ul class="list-group">
+        <li class="list-group-item">Telefono: {{ empleado.telefono }}</li>
+        <li class="list-group-item">Dirección: {{ empleado.direccion }}</li>
+        <li class="list-group-item">Edad: {{ empleado.edad }}</li>
+      </ul>
+    </div>
+</div>
