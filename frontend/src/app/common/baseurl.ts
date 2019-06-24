@@ -1,2 +1,2 @@
-export const baseURL = 'http://localhost:8080/testWar/';
-export const httpBaseURL = 'http://localhost:4200';
+export const baseURL = 'http://aplicacion.com:8080/testWar/';
+export const httpBaseURL = 'http://aplicacion.com:4200';
