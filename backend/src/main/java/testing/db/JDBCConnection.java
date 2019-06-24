@@ -26,7 +26,7 @@ public class JDBCConnection {
         String puerto = "3306";
         String db = "db_empleados";
         String usuario = "root";
-        String clave = "";
+        String clave = "root";
         try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
